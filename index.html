@@ -7,54 +7,65 @@
     <title>Actividad 1</title>
     <script src="js/bootstrap.bundle.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Metalcore Fest!</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inici</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projectes destacats</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Programació i activitats</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Formulari de contacte/inscripció</a>
-                    </li>
+    <header>
 
-
-                    
-                </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">NOM FESTIVAL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inici">Inici</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destacats">Projectes destacats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acts">Programació i activitats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#form">Formulari de contacte/inscripció</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-        <h1>Metalcore Fest!</h1>  
-        <h1>Projectes destacats</h1>
-        <h1>Programació y activitats</h1>
-        <h1>Formulari de contacte/inscripció</h1>
-                       <div>
-        <form id="formulari">
-            <label for="nom">Nom:</label><br>
-            <input type="text" name="nom"><br>
-            <label for="edat">Edat:</label><br>
-            <input type="text" name="edat"><br>
-            <label for="mail">Correu electrònic:</label><br>
-            <input type="email" name="correu"><br>
-            <input type="submit" name="enviar"><br>
-    </div>
+        </nav>
+    </header>
+    <main>
+        <section id="inici"></section>
+        <section id="destacats"></section>
+        <section id="acts"></section>
+        <section id="form">
+            <form id="formulari">
+                <label for="nom">Nom:</label><br>
+                <input type="text" name="nom"><br>
+                <label for="edat">Edat:</label><br>
+                <input type="date" name="edat"><br>
+                <label for="mail">Correu electrònic:</label><br>
+                <input type="email" name="correu"><br>
+                <p>Desitja rebre notificacions sobre festivals a la seva zona?</p>
+                <input type="radio" id="si_noti" name="notificacions" value="si">
+                <label for="si_noti">Vull rebre notificacions</label><br>
+                <input type="radio" id="no_noti" name="notificacions" value="no">
+                <label for="no_noti">No vull rebre notificacions</label><br>
+                <input type="submit" name="enviar"><br>
+            </form>
+        </section>
+    </main>
+
+
 
     
+
 </body>
 
 </html>
