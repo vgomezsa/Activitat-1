@@ -1,0 +1,163 @@
+h1{
+    font-size: 30px;
+     font-weight: 700;
+}
+#formulari{
+    padding: 10px;
+    
+
+}
+main{
+    margin: 50px;
+}
+
+p{
+    font-size: large;
+}
+body {
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+    font-family: "Turret Road", sans-serif;
+    margin: 0 ;
+    text-align: center;
+    
+    
+}
+.imatges_dest img{
+   width: 100%;
+   aspect-ratio: 16/9;
+   height: auto;
+   object-fit: cover;
+}
+
+.card {
+    background-color: rgb(24, 2, 1);
+    color: aliceblue;
+    
+    
+}
+
+.card-footer{
+    background-color: rgb(63, 9, 2);
+    color: aliceblue;
+} 
+nav{
+    position: sticky;
+    font-size: larger;
+    text-align: left;
+    height: 200px;   
+}
+
+.navbar-toggler-icon {
+   filter: invert(1);
+
+}
+
+.nav-item{
+    transition: 0.5s;
+}
+
+.nav-item:hover{
+    font-size: 25px;
+      
+}
+
+
+iframe {
+
+  width: 560px ;
+  height: 315px;
+}
+
+.logo-png {
+    transition: 0.5s;
+}
+
+.logo-png:hover {
+    filter: invert(5);
+    filter: blur(10);
+}
+
+.card {
+    transition:0.5s;
+}
+
+.card:hover{
+    filter: invert(1);
+}
+/* W3Schools */
+@media (max-width: 767px) {
+    .videos_dest {
+        flex-direction: column;
+    }
+
+/* ChatGPT */
+    .videos_dest .col {
+        width: 100%;
+        flex: none;
+    }
+
+    .videos_dest iframe {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#barcode {
+  font-family: "Libre Barcode 128 Text", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 300%;
+  color: aliceblue;
+}
+
+#fuentelight {
+  font-family: "Turret Road", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: aliceblue;
+}
+
+#fuenteregular {
+  font-family: "Turret Road", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+
+#fuentemedium {
+  font-family: "Turret Road", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: aliceblue;
+}
+
+#fuentebold {
+  font-family: "Turret Road", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: aliceblue;
+  font-size: xx-large;
+}
+
+
+
