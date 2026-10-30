@@ -44,8 +44,7 @@ body {
 nav{
     position: sticky;
     font-size: larger;
-    text-align: left;
-    height: 200px;   
+    text-align: left;   
 }
 
 .navbar-toggler-icon {
