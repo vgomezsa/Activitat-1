@@ -8,31 +8,33 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-    
 
-<!--Fuentes-->
+
+    <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
-<body style="background-color: rgb(0, 0, 0);">
+<body>
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-image: url(img/navbar.png);" >
-            <div class="container-fluid" >
-                <a class="navbar-brand" href="#inici"> <img src="img/Logo Pagina Web.png" style="width: 30%;"></a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-image: url(img/navbar.png); background-size: cover;
+background-position: center; background-repeat: no-repeat; width: 100%; box-sizing: border-box;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#inici" > <img src="img/Logo Pagina Web.png" style="width: 20%;" class="logo-png" ></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav" >
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item" >
+                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#inici" id="barcode">Inici</a>
                         </li>
                         <li class="nav-item">
@@ -42,7 +44,7 @@
                             <a class="nav-link" href="#acts" id="barcode">Horaris</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#form" id="barcode">Formulari de contacte</a>
+                            <a class="nav-link" href="#form" id="barcode">Formulari</a>
                         </li>
                     </ul>
                 </div>
@@ -50,47 +52,379 @@
         </nav>
     </header>
     <main>
-        <section id="inici"></section>
+        <section id="inici">
+            <h1>MetalCore Fest 2026 </h1>
+            <p style="font-size: x-large;">Tres dies de música pesada, directes potents i espectacles visuals. De l'11 al 13 de novembre portem Bad
+                Omens, Architects i Black Veil Brides juntament amb un cartell ple de metal, disseny de llums, visuals
+                interactius i tallers tècnics, vine a veure els directes i descobreix noves bandes.</p>
+        </section>
         <section id="destacats">
-            <h1 id="fuentebold">Artistes destacats</h1>
-            <div class="imatges_dest">
-                <article>
-                    <img src="img/BO.jpg" alt="Bad Omens" style="width: 560px; height: 315px; border-radius: 1%">
-                    <p>Descripcio</p>
-
-                </article>
-                <article>
-                    <img src="img/Arch.jpg" alt="Architects" style="width: 560px; height: 315px; border-radius: 1%;" >
-                    <p>Descripcio</p>
-                    
-                </article>
-                <article>
-                    <img src="img/bmth.jpg" alt="Bring Me The Horizon" style="width: 560px; height: 315px; border-radius: 1%">
-                    <p>Descripcio</p>
-                    
-                </article>
-            </div>
-            <div class="videos_dest">
-                <article>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pebUTle1vsg?si=zOUiHnItPj5ui8Qf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 1%;"></iframe>
-                    <p>Descripcio</p>
-
-                </article>
-                <article>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/z5e-Fud8Nxs?si=aSmQHomg3NNRf5dH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 1%;"></iframe>
-                    <p>Descripcio</p>
-                    
-                </article>
-                <article>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0n1vhLn_iIQ?si=nsS-8oSaJqUg_zH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 1%;"></iframe>
-                    <p>Descripcio</p>
-                    
-                </article>
+            <h1>Artistes destacats</h1>
+            <div class="container-fluid px0 imatges_dest">
+                <div class="row imatges_dest">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/BO.jpg" alt="Bad Omens">
+                        <p>Bad Omens</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/Arch.jpg" alt="Architects">
+                        <p>Architects</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/BVB.jpg" alt="BlackVeilBrides">
+                        <p>Black Veil Brides</p>
+                    </div>
+                </div>
             </div>
         </section>
+        <div class="container-fluid px0">
+            <div class="row videos_dest">
+                <div class="col ">
+                    <iframe src="https://www.youtube.com/embed/pebUTle1vsg?si=zOUiHnItPj5ui8Qf"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                        style="border-radius: 1%;"></iframe>
+                </div>
+                <div class="col">
+                    <iframe src="https://www.youtube.com/embed/z5e-Fud8Nxs?si=aSmQHomg3NNRf5dH"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                        style="border-radius: 1%;"></iframe>
+                </div>
+                <div class="col">
+                    <iframe src="https://www.youtube.com/embed/0n1vhLn_iIQ?si=nsS-8oSaJqUg_zH8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                        style="border-radius: 1%;"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
         <section id="acts">
             <h1>Programació i activitats</h1>
+
+
+            <div class="col text-center">
+                <h3 style="margin-bottom: 5px;">DIVENDRES 11 DE NOVEMBRE</h3>
+                <p class="m-0"><strong>Headliner: BAD OMENS</strong></p>
+            </div>
+
+
+            <div class="row g-4 mb-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Taller Audiovisual</span>
+                            <p class="mb-1">17:00 h - 18:15 h</p>
+                            <h5 class="card-title">Taller: Disseny de Llums i Escenografia DMX</h5>
+                            <p class="card-text">Com sincronitzar visuals en temps real amb bandes de metall modern.</p>
+                        </div>
+                        <div class="card-footer ">
+                            Espai Taller Creatiu
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Metal Progressiu</span>
+                            <p class=" mb-1">18:30 h - 19:30 h</p>
+                            <h5 class="card-title">MONUMENTS</h5>
+                            <p class="card-text">Djent i polirítmies explosives en directe amb visuals reactius a la
+                                bateria.</p>
+                        </div>
+                        <div class="card-footer ">
+                            Prog Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Math Rock / Prog</span>
+                            <p class=" mb-1">20:00 h - 21:15 h</p>
+                            <h5 class="card-title">POLYPHIA</h5>
+                            <p class="card-text">Virtuosisme instrumental i fusió trap-metall acompanyat de mapping 3D.
+                            </p>
+                        </div>
+                        <div class="card-footer ">
+                            Main Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Metalcore / Prog</span>
+                            <p class=" mb-1">21:30 h - 22:45 h</p>
+                            <h5 class="card-title">SPIRITBOX</h5>
+                            <p class="card-text">Atmosferes denses, passatges eteris i contundència sota projeccions
+                                interactives.</p>
+                        </div>
+                        <div class="card-footer ">
+                            Prog Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Main Headliner</span>
+                            <p class=" mb-1">23:15 h - 01:00 h</p>
+                            <h5 class="card-title">BAD OMENS</h5>
+                            <p class="card-text">Espectacle audiovisual exclusiu, so industrial fosc i producció
+                                completa de gran format.</p>
+                        </div>
+                        <div class="card-footer ">
+                            Main Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-dark mb-2">Aftershow</span>
+                            <p class=" mb-1">01:15 h - 03:00 h</p>
+                            <h5 class="card-title">Synthwave & Dark Electro Session</h5>
+                            <p class="card-text">Tancament de la primera jornada amb sessió electrònica i projeccions de
+                                glitch art.</p>
+                        </div>
+                        <div class="card-footer ">
+                            Domo Digital
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col text-center">
+                <h3 style="margin-bottom: 5px;">DISSABTE 12 DE NOVEMBRE</h3>
+                <p class="m-0"><strong>Headliner: ARCHITECTS</strong></p>
+            </div>
+
+
+            <div class="row g-4 mb-5">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Masterclass</span>
+                            <p class=" mb-1">16:30 h - 17:45 h</p>
+                            <h5 class="card-title">Producció Musical de Metall Modern</h5>
+                            <p class="card-text">Com mesclar guitarres de 8 cordes i integrar sintetitzadors amb DAWs
+                                actuals.</p>
+                        </div>
+                        <div class="card-footer ">
+                            Auditori
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Metal Progressiu</span>
+                            <p class=" mb-1">18:00 h - 19:00 h</p>
+                            <h5 class="card-title">INVENT ANIMATE</h5>
+                            <p class="card-text">Ambient djent reflexiu i fosc amb pantalles LED sincròniques.</p>
+                        </div>
+                        <div class="card-footer">
+                            Prog Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Djent / Prog Metal</span>
+                            <p class=" mb-1">19:30 h - 20:45 h</p>
+                            <h5 class="card-title">PERIPHERY</h5>
+                            <p class="card-text">Els pioners del so progressiu contemporani desplegant la seva gamma de
+                                textures sonores.</p>
+                        </div>
+                        <div class="card-footer">
+                            Main Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Atmospheric Prog</span>
+                            <p class=" mb-1">21:15 h - 22:30 h</p>
+                            <h5 class="card-title">TESSERACT</h5>
+                            <p class="card-text">Experiència immersiva en so quadrafònic i jocs de penombres.</p>
+                        </div>
+                        <div class="card-footer">
+                            Prog Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Main Headliner</span>
+                            <p class=" mb-1">23:00 h - 00:45 h</p>
+                            <h5 class="card-title">ARCHITECTS</h5>
+                            <p class="card-text">Himnes d'estadi, riffs devastadors i una producció escènica amb
+                                pirotècnia i làsers.</p>
+                        </div>
+                        <div class="card-footer">
+                            Main Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-info text-dark mb-2">Instal·lació Interactiva</span>
+                            <p class=" mb-1">01:00 h - 02:30 h</p>
+                            <h5 class="card-title">Realitat Virtual: Moshpit 360°</h5>
+                            <p class="card-text">Instal·lació immersiva interactiva per experimentar concerts des de
+                                perspectives impossibles.</p>
+                        </div>
+                        <div class="card-footer">
+                            Espai Nous Formats
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col text-center">
+                <h3 style="margin-bottom: 5px;">DIUMENGE 13 DE NOVEMBRE</h3>
+                <p class="m-0"><strong>Headliner: BLACK VEIL BRIDES</strong></p>
+            </div>
+
+
+            <div class="row g-4 mb-5">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Taula Rodona</span>
+                            <p class=" mb-1">16:30 h - 17:45 h</p>
+                            <h5 class="card-title">Estètica Visual i Identitat en el Rock</h5>
+                            <p class="card-text">Xerrada amb dissenyadors d'art conceptual, directors de videoclips i
+                                fotògrafs d'escena.</p>
+                        </div>
+                        <div class="card-footer">
+                            Auditori
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Progcore</span>
+                            <p class=" mb-1">18:00 h - 19:00 h</p>
+                            <h5 class="card-title">CURRENTS</h5>
+                            <p class="card-text">Passatges melòdics i canvis de ritme sobtats acompanyats de pantalles
+                                reactives.</p>
+                        </div>
+                        <div class="card-footer">
+                            Prog Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Progressiu / Alternatiu</span>
+                            <p class=" mb-1">19:30 h - 20:50 h</p>
+                            <h5 class="card-title">SLEEP TOKEN</h5>
+                            <p class="card-text">Un ritual fosc que mescla gospel, metall extrem i passatges ambientals
+                                solemnes.</p>
+                        </div>
+                        <div class="card-footer">
+                            Main Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Cyber Metal / Prog</span>
+                            <p class=" mb-1">21:10 h - 22:20 h</p>
+                            <h5 class="card-title">NORTHLANE</h5>
+                            <p class="card-text">Directe basat en textures electròniques industrials i guitarres
+                                afinades a registres greus.</p>
+                        </div>
+                        <div class="card-footer">
+                            Prog Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Main Headliner</span>
+                            <p class=" mb-1">22:45 h - 00:30 h</p>
+                            <h5 class="card-title">BLACK VEIL BRIDES</h5>
+                            <p class="card-text">Gran cloenda del festival amb una proposta visual teatral, pirotècnia i
+                                solos de guitarra clàssics.</p>
+                        </div>
+                        <div class="card-footer">
+                            Main Stage
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge bg-info text-dark mb-2">Espectacle de Cloenda</span>
+                            <p class=" mb-1">00:35 h - 01:15 h</p>
+                            <h5 class="card-title">Mapping 3D i So Espacial</h5>
+                            <p class="card-text">Mostra de projectes d'art visual generatiu projectats sobre la façana
+                                del recinte.</p>
+                        </div>
+                        <div class="card-footer">
+                            Plaça Central
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
+
+        </div>
+
+
+
+
+        </section>
+
         <section id="form">
             <h1>Formulari de contacte i inscripció</h1>
             <form id="formulari">
@@ -112,7 +446,7 @@
 
 
 
-    
+
 
 </body>
 
